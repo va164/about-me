@@ -1,0 +1,120 @@
+body {
+  /*  Typography Declarations  */
+  background-color: ##FAFAFA;
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Gentium Book Basic", sans serif;
+}
+
+.masthead {
+  border-top: solid 1em #0D0D0D;
+  border-bottom: solid 1em #0D0D0D;
+  border-radius: .45em;
+  background-image: url(nTr1589kTgyXCOdStCGm_MikaRuusunen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 65%;
+  padding: 6em 0;
+  margin-bottom: 3em;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+  text-align: center;
+}
+
+.masthead-intro {
+  /*  Layout Declarations  */
+  margin-bottom: 0em;
+  /*  Typography Declarations  */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  font-weight: light;
+  color: #0D0D0D;
+  word-spacing: .89em;
+  text-shadow: 0em .01em .09em #0D0D0D;
+}
+
+.masthead-heading {
+  /*  Layout Declarations  */
+  margin-top: 0em;
+  /*  Typography Declarations  */
+  font-family: "Times New Roman", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -.02em;
+  text-transform: uppercase;
+  color: #0D0D0D;
+  text-shadow: 0em .001em .075em #0D0D0D;
+}
+
+.intro-section,
+.importance-section,
+.moreabout-section {
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.intro-section > p,
+.importance-section > p,
+.moreabout-section > p,
+.moreabout-section > div {
+  /*  Typography Declarations  */
+  font-weight: 300;
+  letter-spacing: .05em;
+}
+
+.moreabout-section > h2 {
+  /*  Typography Declarations  */
+  font-family: "Open Sans", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #9E9E9E;
+  /*  Layout Declarations  */
+  margin: 2em 0 1em 0;
+}
+
+.content-footer {
+  /*  Layout Declarations  */
+  padding-bottom: .5em;
+  margin-top: 7em;
+  border-top: .25em solid #8D8D8D;
+  border-bottom: .25em solid #8D8D8D;
+  border-radius: 1em;
+  /* Red, Green, Blue: #RRGGBB */
+  color: #DAD9DA;
+  background-color: #0D0D0D;
+}
+
+.content-footer > p {
+  color: ;
+}
+.social{
+  margin-left: -4rem;
+}
+.social>li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+a {
+  color: #ff3a00;
+  text-decoration: none;
+  font-weight: light;
+}
+
+h1 {
+  color: #282828;
+}
+
+h2 {
+  color: #8D8D8D;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+.favorite{
+  margin-top: 1em;
+}
