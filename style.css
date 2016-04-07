@@ -2,7 +2,7 @@ body {
   /*  Typography Declarations  */
   background-color: ##FAFAFA;
   color: #222222;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: "Open Sans", "Gentium Book Basic", sans serif;
 }
 
@@ -13,7 +13,7 @@ body {
   background-image: url(nTr1589kTgyXCOdStCGm_MikaRuusunen.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 65%;
+  background-position: top center;
   padding: 6em 0;
   margin-bottom: 3em;
 }
@@ -29,33 +29,33 @@ body {
   margin-bottom: 0em;
   /*  Typography Declarations  */
   font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: light;
   color: #0D0D0D;
-  word-spacing: .89em;
-  text-shadow: 0em .01em .09em #0D0D0D;
+  word-spacing: .89rem;
+  text-shadow: 0rem .01rem .09rem #0D0D0D;
 }
 
 .masthead-heading {
   /*  Layout Declarations  */
-  margin-top: 0em;
+  margin-top: 0rem;
   /*  Typography Declarations  */
   font-family: "Times New Roman", "Helvetica Neue", sans-serif;
   font-weight: bold;
-  font-size: 6em;
-  letter-spacing: -.02em;
+  font-size: 6rem;
+  letter-spacing: -.02rem;
   text-transform: uppercase;
   color: #0D0D0D;
-  text-shadow: 0em .001em .075em #0D0D0D;
+  text-shadow: 0rem .001rem .075rem #0D0D0D;
 }
 
 .intro-section,
 .importance-section,
 .moreabout-section {
-  max-width: 40em;
+  max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 .intro-section > p,
@@ -64,26 +64,26 @@ body {
 .moreabout-section > div {
   /*  Typography Declarations  */
   font-weight: 300;
-  letter-spacing: .05em;
+  letter-spacing: .05rem;
 }
 
 .moreabout-section > h2 {
   /*  Typography Declarations  */
   font-family: "Open Sans", Georgia, serif;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #9E9E9E;
   /*  Layout Declarations  */
-  margin: 2em 0 1em 0;
+  margin: 2rem 0 1rem 0;
 }
 
 .content-footer {
   /*  Layout Declarations  */
-  padding-bottom: .5em;
-  margin-top: 7em;
-  border-top: .25em solid #8D8D8D;
-  border-bottom: .25em solid #8D8D8D;
-  border-radius: 1em;
+  padding-bottom: .5rem;
+  margin-top: 7rem;
+  border-top: .25rem solid #8D8D8D;
+  border-bottom: .25rem solid #8D8D8D;
+  border-radius: 1rem;
   /* Red, Green, Blue: #RRGGBB */
   color: #DAD9DA;
   background-color: #0D0D0D;
@@ -93,11 +93,11 @@ body {
   color: ;
 }
 .social{
-  margin-left: -4rem;
+  margin-left: -3.75rem;
 }
 .social>li {
   display: inline-block;
-  margin-left: 1em;
+  margin-left: 1rem;
 }
 
 a {
@@ -113,8 +113,27 @@ h1 {
 h2 {
   color: #8D8D8D;
   text-decoration: underline;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .favorite{
-  margin-top: 1em;
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 1050px) {
+  .masthead {
+    padding: 3rem 0;
+  }
+  .masthead-heading{
+    font-size: 3.5rem;
+  }
+  .intro-section,
+  .importance-section,
+  .moreabout-section{
+     font-size: 70%;
+}
+  .content-footer p {
+    font-size: 70%;
+  }
+  .social {
+    font-size: 150%;
+  }
 }
